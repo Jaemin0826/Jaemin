@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>쇼핑몰</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: helvetica;
+        }
+
+        .navbar{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        #menu{
+            float: right;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 20px;
+        }
+
+        #menu li{
+            float: left;
+            padding-left: 30px;
+        }
+
+        #menu li a{
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+            color: #414141;
+            line-height: 20px;
+            display: block;
+        }
+
+        #menu li a:hover {
+            background-color: #eeeeee;
+        }
+
+        .pic{
+            background-image: url(https://i.postimg.cc/XYrPf0ns/hero-header.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 450px;
+        }
+
+        .mid{
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;
+            color: #545454;
+            font-weight: bold;
+        }
+
+        .mid h1{
+            font-size: 24px;
+        }
+
+        .main{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            text-align: center;
+        }
+
+       
+
+        .main a{
+            font-size: 16px;
+        }
+
+        .box{
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 80px;
+            text-decoration: none;
+            color: #545454;
+        }
+
+        .box:hover{
+           /* background-color: rgb(248, 248, 248); */
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            
+        }
+
+        .product{
+            padding-top: 20px;
+            padding-bottom: 4px;
+        }
+
+       .sns{
+        padding-top: 60px;
+        padding-bottom: 80px;
+        text-align: center;
+       }
+
+       .sns .emoji{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="https://www.youtube.com" target="_blank"><img src="https://i.postimg.cc/Dzh9QM0H/logo.png" height="20px" alt="logo"></a>
+
+        <ul id="menu">
+            <li><a href="https://www.youtube.com" target="_blank">Contact</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">Shop</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">Cart</a></li>
+            <li><a id="last" href="">Login</a></li>
+        </ul>
+    </div>
+    
+    <div class="pic"></div>
+
+    <div class="mid">
+        <h1 class="word">Our New Products</h1>
+    </div>
+
+    <div class="main">
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/C18q80LT/sunglasses.jpg" width="225px" alt="box1">
+            <p class="product">Sunglasses</p>
+            <p class="price">49,000</p>
+        </a>
+    
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/cLvGhbRL/classic-loafer.jpg" width="225px" alt="box1">
+            <p class="product">Tassel Loafer</p>
+            <p class="price">89,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/TPDw798n/beige-bag.jpg" width="225px" alt="box1">
+            <p class="product">Beige Bag</p>
+            <p class="price">69,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/MZDGFHL3/sneakers.jpg" width="225px" alt="box1">
+            <p class="product">Sneakers</p>
+            <p class="price">79,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/63K9HxfN/slippers.jpg" width="225px" alt="box1">
+            <p class="product">Slippers</p>
+            <p class="price">29,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/Yq0tD3Yj/wrist-watch.jpg" width="225px" alt="box1">
+            <p class="product">Wrist Watch</p>
+            <p class="price">99,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/qRQdjh78/fedora-hat.jpg" width="225px" alt="box1">
+            <p class="product">Fedora Hat</p>
+            <p class="price">39,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/50sZ8hPg/tassel-loafer.jpg" width="225px" alt="box1">
+            <p class="product">Classic Loafer</p>
+            <p class="price">99,000</p>
+        </a>
+
+        <a class="box" href="https://www.youtube.com" target="_blank">
+            <img src="https://i.postimg.cc/gkC1yqKC/pink-bag.jpg" width="225px" alt="box1">
+            <p class="product">Pink Bag</p>
+            <p class="price">79,000</p>
+        </a>
+
+    </div>
+
+    <div class="sns">
+    <a href="https://www.facebook.com" target="_blank"><img class="emoji" src="https://i.postimg.cc/j2tNz1F8/facebook.png" width="20px" height="20px" alt="facebook"></a> 
+      
+    <a href="https://www.instagram.com/" target="_blank"><img class="emoji" src="https://i.postimg.cc/9FXZ0vT0/instagram.png" width="20px" alt="instagram"></a>
+
+    <a href="https://www.twitter.com" target="_blank"><img class="emoji" src="https://i.postimg.cc/zG6gdvQH/twitter.png" width="20px" alt="twitter"></a>
+    </div>
+    
+</body>
+</html>
